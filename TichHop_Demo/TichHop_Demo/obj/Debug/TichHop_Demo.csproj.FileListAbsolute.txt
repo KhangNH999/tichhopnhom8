@@ -18,3 +18,13 @@ E:\1Git\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.Gen
 E:\1Git\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.CoreCompileInputs.cache
 E:\1Git\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.exe
 E:\1Git\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\TichHop_Demo.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\TichHop_Demo.exe
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\TichHop_Demo.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.Form1.resources
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.exe
+C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.pdb
