@@ -41,7 +41,28 @@ namespace TichHop_Demo
             dataGridView3.Rows.Add(row9);
             dataGridView3.Rows.Add(row10);
 
+            string[] row11 = new string[] { "Advance payment and loan company", "0" };
+            string[] row12 = new string[] { "Borrow the car company", "200" };
+            string[] row13 = new string[] { "Conveyance Allowance", "500" };
+            string[] row14 = new string[] { "House Rent Allowance", "150" };
+            string[] row15 = new string[] { "Health insurance", "300" };
+            string[] row16 = new string[] { "Shares of the company", "300" };
+            dataGridView4.Rows.Add(row11);
+            dataGridView4.Rows.Add(row12);
+            dataGridView4.Rows.Add(row13);
+            dataGridView4.Rows.Add(row14);
+            dataGridView4.Rows.Add(row15);
+            dataGridView4.Rows.Add(row16);
 
+            string[] row17 = new string[] { "A level", "2020" };
+            string[] row18 = new string[] { "College Degree", "2021" };
+            dataGridView5.Rows.Add(row17);
+            dataGridView5.Rows.Add(row18);
+
+            comboBox5.SelectedIndex = 0;
+            comboBox6.SelectedIndex = 0;
+            comboBox7.SelectedIndex = 0;
+            comboBox8.SelectedIndex = 0;
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
@@ -72,6 +93,12 @@ namespace TichHop_Demo
         private void tabPage3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
         }
     }
 }
