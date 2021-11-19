@@ -59,10 +59,13 @@ namespace TichHop_Demo
             dataGridView5.Rows.Add(row17);
             dataGridView5.Rows.Add(row18);
 
+            comboBox3.SelectedIndex = 0;
+            comboBox4.SelectedIndex = 0;
             comboBox5.SelectedIndex = 0;
             comboBox6.SelectedIndex = 0;
             comboBox7.SelectedIndex = 0;
             comboBox8.SelectedIndex = 0;
+            comboBox9.SelectedIndex = 0;
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)

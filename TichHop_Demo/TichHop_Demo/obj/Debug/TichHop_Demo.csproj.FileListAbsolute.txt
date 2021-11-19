@@ -31,7 +31,6 @@ C:\Users\ASUS\OneDrive\Máy tính\Tích hợp\tichhopnhom8\TichHop_Demo\TichHop_
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\TichHop_Demo.exe.config
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\TichHop_Demo.exe
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\TichHop_Demo.pdb
-C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.AssemblyReference.cache
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.Form1.resources
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.Properties.Resources.resources
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.GenerateResource.cache
@@ -39,3 +38,19 @@ C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\Ti
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.exe
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.pdb
 C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.Form2.resources
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\nhóm8\tichhopnhom8\TichHop_Demo\TichHop_Demo\obj\Debug\TichHop_Demo.csproj.CopyComplete

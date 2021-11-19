@@ -29,19 +29,19 @@ namespace TichHop_Demo
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("HR Department");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Payroll Department");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Vietnam Branch", new System.Windows.Forms.TreeNode[] {
-            treeNode29,
-            treeNode30});
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("HR Department");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Payroll Department");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("London Branch", new System.Windows.Forms.TreeNode[] {
-            treeNode32,
-            treeNode33});
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("ACME Company", new System.Windows.Forms.TreeNode[] {
-            treeNode31,
-            treeNode34});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("HR Department");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Payroll Department");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Vietnam Branch", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2});
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("HR Department");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Payroll Department");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("London Branch", new System.Windows.Forms.TreeNode[] {
+            treeNode4,
+            treeNode5});
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("ACME Company", new System.Windows.Forms.TreeNode[] {
+            treeNode3,
+            treeNode6});
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -136,25 +136,30 @@ namespace TichHop_Demo
             this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label33 = new System.Windows.Forms.Label();
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label33 = new System.Windows.Forms.Label();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -175,9 +180,9 @@ namespace TichHop_Demo
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.tabPage5.SuspendLayout();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -273,22 +278,22 @@ namespace TichHop_Demo
             this.treeView1.Location = new System.Drawing.Point(4, 55);
             this.treeView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.treeView1.Name = "treeView1";
-            treeNode29.Name = "Node4";
-            treeNode29.Text = "HR Department";
-            treeNode30.Name = "Node5";
-            treeNode30.Text = "Payroll Department";
-            treeNode31.Name = "Node2";
-            treeNode31.Text = "Vietnam Branch";
-            treeNode32.Name = "Node6";
-            treeNode32.Text = "HR Department";
-            treeNode33.Name = "Node7";
-            treeNode33.Text = "Payroll Department";
-            treeNode34.Name = "Node3";
-            treeNode34.Text = "London Branch";
-            treeNode35.Name = "Node1";
-            treeNode35.Text = "ACME Company";
+            treeNode1.Name = "Node4";
+            treeNode1.Text = "HR Department";
+            treeNode2.Name = "Node5";
+            treeNode2.Text = "Payroll Department";
+            treeNode3.Name = "Node2";
+            treeNode3.Text = "Vietnam Branch";
+            treeNode4.Name = "Node6";
+            treeNode4.Text = "HR Department";
+            treeNode5.Name = "Node7";
+            treeNode5.Text = "Payroll Department";
+            treeNode6.Name = "Node3";
+            treeNode6.Text = "London Branch";
+            treeNode7.Name = "Node1";
+            treeNode7.Text = "ACME Company";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode35});
+            treeNode7});
             this.treeView1.Size = new System.Drawing.Size(264, 578);
             this.treeView1.TabIndex = 1;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
@@ -806,18 +811,8 @@ namespace TichHop_Demo
             // 
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020",
-            "2021",
-            "2022",
-            "2023",
-            "2024",
-            "2025"});
-            this.comboBox4.Location = new System.Drawing.Point(194, 296);
+            "2021"});
+            this.comboBox4.Location = new System.Drawing.Point(194, 294);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(87, 28);
@@ -827,19 +822,8 @@ namespace TichHop_Demo
             // 
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
-            "1",
-            "2 ",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12"});
-            this.comboBox3.Location = new System.Drawing.Point(65, 296);
+            "11"});
+            this.comboBox3.Location = new System.Drawing.Point(70, 294);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(67, 28);
@@ -1218,96 +1202,50 @@ namespace TichHop_Demo
             this.tabPage5.Text = "Detail";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // panel7
+            // dataGridView6
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel7.Controls.Add(this.label17);
-            this.panel7.Location = new System.Drawing.Point(285, 391);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(907, 250);
-            this.panel7.TabIndex = 5;
+            this.dataGridView6.BackgroundColor = System.Drawing.Color.Bisque;
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column18,
+            this.Column19,
+            this.Column20});
+            this.dataGridView6.Location = new System.Drawing.Point(496, 28);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.RowHeadersWidth = 62;
+            this.dataGridView6.RowTemplate.Height = 28;
+            this.dataGridView6.Size = new System.Drawing.Size(386, 298);
+            this.dataGridView6.TabIndex = 10;
             // 
-            // label17
+            // Column18
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(12, 12);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(249, 20);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Vietnam Branch - HR Department";
+            this.Column18.HeaderText = "Job";
+            this.Column18.MinimumWidth = 8;
+            this.Column18.Name = "Column18";
+            this.Column18.Width = 80;
             // 
-            // label29
+            // Column19
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(5, 20);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(95, 20);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Work status";
+            this.Column19.HeaderText = "Company";
+            this.Column19.MinimumWidth = 8;
+            this.Column19.Name = "Column19";
+            this.Column19.Width = 90;
             // 
-            // label30
+            // Column20
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(5, 79);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(117, 20);
-            this.label30.TabIndex = 1;
-            this.label30.Text = "Personal status";
+            this.Column20.HeaderText = "Description";
+            this.Column20.MinimumWidth = 8;
+            this.Column20.Name = "Column20";
+            this.Column20.Width = 150;
             // 
-            // label31
+            // label33
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(282, 28);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(75, 20);
-            this.label31.TabIndex = 2;
-            this.label31.Text = "Hire date";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(282, 83);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(47, 20);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "Child";
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "Active"});
-            this.comboBox7.Location = new System.Drawing.Point(129, 17);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 28);
-            this.comboBox7.TabIndex = 4;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "Single"});
-            this.comboBox8.Location = new System.Drawing.Point(129, 71);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(121, 28);
-            this.comboBox8.TabIndex = 5;
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(381, 20);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(109, 28);
-            this.textBox20.TabIndex = 6;
-            this.textBox20.Text = "21/11/2021";
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(381, 71);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(109, 28);
-            this.textBox21.TabIndex = 7;
-            this.textBox21.Text = "0";
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(496, 5);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(57, 20);
+            this.label33.TabIndex = 9;
+            this.label33.Text = "Career";
             // 
             // dataGridView5
             // 
@@ -1346,50 +1284,157 @@ namespace TichHop_Demo
             this.Column17.Name = "Column17";
             this.Column17.Width = 150;
             // 
-            // label33
+            // textBox21
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(496, 5);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(57, 20);
-            this.label33.TabIndex = 9;
-            this.label33.Text = "Career";
+            this.textBox21.Location = new System.Drawing.Point(381, 71);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(109, 28);
+            this.textBox21.TabIndex = 7;
+            this.textBox21.Text = "0";
             // 
-            // dataGridView6
+            // textBox20
             // 
-            this.dataGridView6.BackgroundColor = System.Drawing.Color.Bisque;
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column18,
-            this.Column19,
-            this.Column20});
-            this.dataGridView6.Location = new System.Drawing.Point(496, 28);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.RowHeadersWidth = 62;
-            this.dataGridView6.RowTemplate.Height = 28;
-            this.dataGridView6.Size = new System.Drawing.Size(386, 298);
-            this.dataGridView6.TabIndex = 10;
+            this.textBox20.Location = new System.Drawing.Point(381, 20);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(109, 28);
+            this.textBox20.TabIndex = 6;
+            this.textBox20.Text = "21/11/2021";
             // 
-            // Column18
+            // comboBox8
             // 
-            this.Column18.HeaderText = "Job";
-            this.Column18.MinimumWidth = 8;
-            this.Column18.Name = "Column18";
-            this.Column18.Width = 80;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Single"});
+            this.comboBox8.Location = new System.Drawing.Point(129, 71);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(121, 28);
+            this.comboBox8.TabIndex = 5;
             // 
-            // Column19
+            // comboBox7
             // 
-            this.Column19.HeaderText = "Company";
-            this.Column19.MinimumWidth = 8;
-            this.Column19.Name = "Column19";
-            this.Column19.Width = 90;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Active"});
+            this.comboBox7.Location = new System.Drawing.Point(129, 17);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(121, 28);
+            this.comboBox7.TabIndex = 4;
             // 
-            // Column20
+            // label32
             // 
-            this.Column20.HeaderText = "Description";
-            this.Column20.MinimumWidth = 8;
-            this.Column20.Name = "Column20";
-            this.Column20.Width = 150;
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(282, 83);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(47, 20);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "Child";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(282, 28);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(75, 20);
+            this.label31.TabIndex = 2;
+            this.label31.Text = "Hire date";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(5, 79);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(117, 20);
+            this.label30.TabIndex = 1;
+            this.label30.Text = "Personal status";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(5, 20);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(95, 20);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Work status";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel7.Controls.Add(this.button6);
+            this.panel7.Controls.Add(this.button5);
+            this.panel7.Controls.Add(this.comboBox9);
+            this.panel7.Controls.Add(this.label35);
+            this.panel7.Controls.Add(this.label34);
+            this.panel7.Controls.Add(this.label17);
+            this.panel7.Location = new System.Drawing.Point(285, 391);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(907, 250);
+            this.panel7.TabIndex = 5;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(782, 6);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(114, 35);
+            this.button6.TabIndex = 30;
+            this.button6.Text = "Next";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(663, 6);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(117, 35);
+            this.button5.TabIndex = 30;
+            this.button5.Text = "Previous";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "1"});
+            this.comboBox9.Location = new System.Drawing.Point(580, 9);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(64, 28);
+            this.comboBox9.TabIndex = 3;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(534, 12);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(46, 20);
+            this.label35.TabIndex = 2;
+            this.label35.Text = "Page";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(417, 12);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(82, 20);
+            this.label34.TabIndex = 1;
+            this.label34.Text = "1 Records";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(12, 12);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(249, 20);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Vietnam Branch - HR Department";
             // 
             // Form1
             // 
@@ -1430,10 +1475,10 @@ namespace TichHop_Demo
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1553,6 +1598,11 @@ namespace TichHop_Demo
         private System.Windows.Forms.DataGridViewTextBoxColumn Column18;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column19;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column20;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
     }
 }
 
